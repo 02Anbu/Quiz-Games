@@ -208,31 +208,3 @@
     background: linear-gradient(90deg, #03a9f4,#f441a5,#ffeb3b,#03a9f4);
 }
 
-/* Responsive adjustments */
-@media only screen and (max-width: 768px) {
-    .flex-box {
-        width: 90%;
-        height: auto;
-        margin: 50px auto;
-        padding: 20px;
-    }
-
-    .heading {
-        font-size: 30px;
-        margin-top: -50px;
-    }
-
-    .text {
-        font-size: 16px;
-        margin-bottom: 100px;
-    }
-
-    .option,
-    .option1,
-    .restart {
-        width: 80px;
-        height: 30px;
-        margin: 5px;
-        font-size: 12px;
-    }
-}
