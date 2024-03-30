@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="flex-box">
+    <h2 class="heading">Quiz Game</h2> <br> <br>
+    <p class="text"></p> <br>
+    <button class="option" onclick="checkAnswer(this.textContent)"></button>
+    <button class="option" onclick="checkAnswer(this.textContent)"></button>
+    <button class="option" onclick="checkAnswer(this.textContent)"></button>
+    <button class="option" onclick="checkAnswer(this.textContent)"></button>
+    <p id="timer" class="time"><b>Time: 35s</b></p>
+    <button class="option1" onclick="nextQuestion()">Next</button>
+    <p id="score" class="score"><b>Your Score: 0</b></p> <br> <br>
+    <button id="restartButton" class="restart" onclick="restartQuiz()">Restart Quiz</button>
+
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
